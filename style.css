@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Garamond8";
+  src: url('../EBGaramond08-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Garamon8italic";
+  src: url('../EBGaramond08-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Garamon12";
+  src: url('../EBGaramond12-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Garamon12italic";
+  src: url('../EBGaramond12-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url('../abel-regular.ttf') format('truetype');
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Garamond8"; serif;
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+  /* text-transform: uppercase; */
+  height: 100vh;
+  background-color: rgba(149, 149, 188, 1);
+
+}
+
+
+address {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  font-family: "Garamond8"; serif;
+
+
+}
+
+h2 {
+  font-family: "Abel"; sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
