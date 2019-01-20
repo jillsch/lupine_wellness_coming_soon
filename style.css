@@ -37,6 +37,7 @@ body {
   /* text-transform: uppercase; */
   height: 100vh;
   background-color: rgba(149, 149, 188, 1);
+  text-align: center;
 
 }
 
@@ -52,7 +53,7 @@ address {
 }
 
 h2 {
-  font-family: "Abel"; sans-serif;
+  font-family: "Abel"; serif;
   text-transform: uppercase;
   letter-spacing: 3px;
 
